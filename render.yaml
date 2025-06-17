@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: BCA-1
+    name: baby-cry-analysis
     env: python
     rootDir: BCA
     buildCommand: "pip install pipenv && pipenv install"
