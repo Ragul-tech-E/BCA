@@ -1,8 +1,9 @@
 services:
   - type: web
-    name: baby-cry-analysis
+    name: BCA-1
     env: python
+    rootDir: BCA
     buildCommand: "pip install pipenv && pipenv install"
     startCommand: "pipenv run python run.py"
-    region: oregon
+    region: singapore
     plan: free
